@@ -1,3 +1,19 @@
+ 功能
+
+获取联系人信息
+获取通话信息
+获取短信信息
+GPS/网络定位
+实时监控接收短信息
+实时获取手机状态
+拍照
+响铃
+录视频
+发短信
+打电话
+打开浏览器访问URL
+手机震动
+使用方法其实蛮简单，只要把src里面的Androrat和AndroratServer这两个工程编译出来就行了。其中Androrat是安卓程序，AndroratServer是java程序。编译Androrat后会在Androrat目录下的bin目录下生成LauncherActivity.apk这个安卓程序，安装到别人手机上就行了，打开程序会让你配置服务端IP和端口然后后开启服务和停止服务两个按钮。当然可以把ip直接做到程序中隐藏窗口。具体可以在LauncherActivity.java这个文件中修改。然后就是AndroratServer了，编译的时候可以导出为jar包，执行java -jar 包名.jar就行了。执行后会出现一个软件界面列出当前已监控的手机列表。然后可以得到手机里面一切信息。包括控制手机等……
 androrat
 ========
 
